@@ -65,6 +65,44 @@
   border-bottom: none !important;
 }
 
+.kotakbirufill{
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border-radius: 5px !important;
+  border: 3px solid blue !important;
+  background-color: blue !important;
+}
+
 .bayangan{
   box-shadow: 10px 25px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.padtop{
+  margin-top: 0.8rem;
+}
+
+.bluetab .tab a{
+    color:blue !important;
+    border-bottom: 2px solid blue !important;
+} /*Black color to the text*/
+
+.bluetab .tab a:hover {
+    background-color:white !important;
+    color:cyan !important;
+} /*Text color on hover*/
+
+.bluetab .tab a.active {
+    background-color:white !important;
+    color:cyan !important;
+} /*Background and text color when a tab is active*/
+
+.bluetab .indicator {
+    background-color:cyan !important;
+} /*Color of underline*/
+
+ul.browser-default {
+  padding-left: 20px;
+}
+ul.browser-default li {
+  list-style-type: inherit;
 }
