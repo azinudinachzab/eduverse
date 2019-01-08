@@ -1,3 +1,7 @@
+iframe{
+    overflow:hidden;
+}
+
 .btn-group {
   position: relative;
   display: -ms-inline-flexbox;
@@ -81,6 +85,10 @@
   margin-top: 0.8rem;
 }
 
+.padtop2{
+  margin-top: 5rem;
+}
+
 .bluetab .tab a{
     color:blue !important;
     border-bottom: 2px solid blue !important;
@@ -105,4 +113,12 @@ ul.browser-default {
 }
 ul.browser-default li {
   list-style-type: inherit;
+}
+
+ul.browser-default li.active {
+  color: blue;
+}
+
+ul.browser-default li:hover {
+  color: blue;
 }
