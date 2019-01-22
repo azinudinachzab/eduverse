@@ -1,0 +1,158 @@
+doctype html
+html
+  head
+    // Import Google Icon Font
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    // Import materialize.css
+    link(type='text/css', rel='stylesheet', href='css/materialize.min.css', media='screen,projection')
+    link(type='text/css', rel='stylesheet', href='css/style.css', media='screen,projection')
+    // Let browser know website is optimized for mobile
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  body
+    .container-fluid
+      .row
+        .col.l3.s12
+          a(href='/')
+            img.padtop.responsive-img(src='images/eduverse.png', alt='EDUverse', width='85%', height='85%')
+        .col.l9.s12
+          .input-field.col.l12.s12
+            img.prefix.kotakhijau.bayangan(src='images/lampu.png', alt='lamp')
+            input.center.kotakbiru.bayangan(placeholder='All you need about education', type='text')
+      .row
+        .col.l2.s6
+          a(href='/powerprofile')
+            img(src='images/thumb_pp.png', width='28%', height='28%')
+          a(href='/selfimprovement')
+            img(src='images/thumb_si.png', alt='self improvement')
+          a(href='/university')
+            img(src='images/thumb_u.png', alt='university')
+        .col.l6.s12
+          ul.tabs.bluetab
+            li.tab.col.s3
+              a.active(href='#test1') Conference
+            li.tab.col.s3
+              a(href='#test2') Training
+            li.tab.col.s3
+              a(href='#test3') Courses
+    #test1
+      .container-fluid.kotakbiru
+        .row
+          .col.l6.s12
+            h3.kotakbirufill.white-text by Topic
+            .row
+              .col.l12.s12
+                .col.l4.s4
+                  h6.cyan-text Education
+                  ul.browser-default
+                    li Teaching and Learning
+                    li Higher Education
+                    li Vocational Education
+                    li E-Learning
+                    li Lifelong Learning
+                .col.l4.s4
+                  h6.cyan-text Engineering & Technology
+                  ul.browser-default
+                    li Engineering
+                    li Manufacturing
+                    li Robotics
+                    li Polymers and Plastics
+                    li Renewable Energy
+                .col.l4.s4
+                  h6.cyan-text Business & Economics
+                  ul.browser-default
+                    li Banking and Finance
+                    li Business Ethics
+                    li Economics
+                    li Management
+                    li E-Commerce
+            .row
+              .col.l12.s12
+                .col.l4.s4
+                  h6.cyan-text Interdisciplinary
+                  ul.browser-default
+                    li Children and Youth
+                    li Communications and Media
+                    li Leadership
+                    li Disaster Management
+                    li Globalization
+                .col.l4.s4
+                  h6.cyan-text Health & Medicine
+                  ul.browser-default
+                    li Medicine and Medical Science
+                    li Food Safety
+                    li Psychiatry
+                    li Public Health
+                    li Nursing
+                .col.l4.s4
+                  h6.cyan-text Social Sciences & Humanities
+                  ul.browser-default
+                    li Islamic Studies
+                    li Anthropology
+                    li Arts
+                    li Politics
+                    li Law
+                    li Linguistics
+          .col.l6.s12
+            h3.kotakbirufill.white-text by Area
+            .row
+              .col.l12.s12
+                .col.l4.s4
+                  h6.cyan-text Asia
+                  ul.browser-default
+                    li Indonesia
+                    li China
+                    li Japan
+                    li Singapore
+                    li Taiwan
+                .col.l4.s4
+                  h6.cyan-text North America
+                  ul.browser-default
+                    li United States of America
+                    li Canada
+                    li Mexico
+                    li Greenland
+                .col.l4.s4
+                  h6.cyan-text South America
+                  ul.browser-default
+                    li Argentina
+                    li Chile
+                    li Brazil
+                    li Paraguay
+            .row
+              .col.l12.s12
+                .col.l4.s4
+                  h6.cyan-text Europe
+                  ul.browser-default
+                    li Finland
+                    li Denmark
+                    li United Kingdom
+                    li Germany
+                    li Turkey
+                    li Italy
+                    li Spain
+                    li France
+                .col.l4.s4
+                  h6.cyan-text Oceania
+                  ul.browser-default
+                    li Australia
+                    li New Zealand
+                .col.l4.s4
+                  h6.cyan-text Africa
+                  ul.browser-default
+                    li Egypt
+                    li South Africa
+                    li Nigeria
+                    li Marocco
+    #test2
+      .container-fluid.green
+        .row
+          .col.l12.s12
+            | hehe
+    #test3
+      .container-fluid.red
+        .row
+          .col.l12.s12
+            | hehe
+    script(src='https://code.jquery.com/jquery-2.1.1.min.js')
+    script(type='text/javascript', src='js/materialize.min.js')
+    script(type='text/javascript', src='js/init.js')

@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    // Import Google Icon Font
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    // Import materialize.css
+    link(type='text/css', rel='stylesheet', href='../css/materialize.min.css', media='screen,projection')
+    link(type='text/css', rel='stylesheet', href='../css/style.css', media='screen,projection')
+    // Let browser know website is optimized for mobile
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  body
+    .container-fluid
+      .row
+        .col.l3.s12
+          a(href='/')
+            img.padtop.responsive-img(src='../images/eduverse.png', alt='EDUverse', width='85%', height='85%')
+        .col.l9.s12
+          .input-field.col.l12.s12
+            img.prefix.kotakhijau.bayangan(src='../images/lampu.png', alt='lamp')
+            input.center.kotakbiru.bayangan(placeholder='All you need about education', type='text')
+      .row
+        .col.l2.s6
+          a(href='/powerprofile')
+            img(src='../images/thumb_pp.png', width='28%', height='28%')
+          a(href='/selfimprovement')
+            img(src='../images/thumb_si.png', alt='self improvement')
+          a(href='/university')
+            img(src='../images/thumb_u.png', alt='university')
+        .col.l6.s12
+          ul.tabs.bluetab
+            li.tab.col.s3
+              a.active(href='#test1') Conference
+            li.tab.col.s3
+              a(href='#test2') Training
+            li.tab.col.s3
+              a(href='#test3') Courses
+    #test1
+      .container-fluid.kotakbiru
+        .row
+          .col.l2.s12
+            h4.cyan-text Education
+            ul.browser-default
+              li.active Teaching and Learning
+              li Higher Education
+              li Vocational Education
+              li E-Learning
+              li Lifelong Learning
+          .col.l10.s12
+            .kotakbiru.padtop2
+              iframe(src='https://conferencealerts.com/topic-listing?topic=Teaching%20and%20Learning#searchResultTable', name='iframe', scrolling='no', width='100%', height='510px', frameborder='0')
+    #test2
+      .container-fluid.green
+        .row
+          .col.l12.s12
+            | hehe
+    #test3
+      .container-fluid.red
+        .row
+          .col.l12.s12
+            | hehe
+    script(src='https://code.jquery.com/jquery-2.1.1.min.js')
+    script(type='text/javascript', src='../js/materialize.min.js')
+    script(type='text/javascript', src='../js/init.js')
